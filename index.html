@@ -6,7 +6,7 @@
         <!--Page title and styles-->
         <title>Gounay Zort</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
-        <link rel="stylesheet" href="styles.css" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css">
         <link rel="stylesheet" href="all.min.css" type="text/css">
         <!--Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,8 +18,8 @@
         <!--Header and Navigation Links-->
         <header>
             <nav>
-                <h2 id="logo">Gounay Zort</h2>
                 <ul class="menu">
+                    <li class="logo">Gounay Zort</li>
                     <li class="mode"><div class="switch">
                         <div class="flicker"></div>
                         <div class="moon"></div>
@@ -38,70 +38,85 @@
                     <div class="about-me-text-container">
                       <h2>About Me</h2>
                       <p>
-                        Hi! I'm Ada, Countess of Lovelace and am an English mathematician
-                        and writer, chiefly known for my work on Charles Babbage's
-                        proposed mechanical general-purpose computer, the Analytical
-                        Engine.
+                        Hi! I'm Gounay Zort.
                       </p>
                       <p>
-                        I am one of the first to recognize that machines have applications
-                        beyond pure calculation, and to have published the first algorithm
-                        intended to be carried out by such a machine.
+                        I love to engage in mind games.
                       </p>
                       <p>
-                        In my free time I like to read about scientific developments,
-                        mathematics, and computational mathematics. I also like to take my
-                        chances of winning big.
+                        Hi! to Denmark from Hounsie!
+                      </p>
+                      <p>
+                        Fun fact! It would take 
+                        <span id="time-container">0</span> bullets!
                       </p>
                     </div>
                     <img
-                      src="/images/profile.png"
+                      src="images/profile.png"
                       alt="My profile pic"
                       class="portrait"
                     />
                   </div>
             </section>
-            <section id="#projects">
+            <section id="#projects" class="projects">
                 <div>
                     <h2>Projects</h2>
                 </div>
                 <div class="project-container">
                     <figure class="project-image">
-                        <a href="https://after909.github.io/My-Portfolio/">
-                            <img src="./images/undraw_Portfolio_update_re_jqnp.svg" alt="my-portfolio" srcset="">
+                        <a href="#">
+                            <img src="images/portfolio_website.svg" alt="my-portfolio" srcset="">
                             <figcaption>Portfolio</figcaption>
                         </a>
                     </figure>
                     <figure class="project-image">
-                        <a href="https://after909.github.io/Responsive-Club-Website/">
-                            <img src="./images/undraw_Responsive_re_e1nn.svg" alt="responsive-page" srcset="">
+                        <a href="#">
+                            <img src="./images/mixed_messages.svg" alt="responsive-page" srcset="">
                             <figcaption>Responsive club page</figcaption>
                         </a>
                     </figure>
                 </div>    
             </section>
-            <section id="#Skills">
-                <h2>Skills</h2>
-                <div id="skills-container">
-                  <i class="fab fa-html5"></i>
-                  <i class="fab fa-css3-alt"></i>
-                  <i class="fab fa-js"></i>
-                  <i class="fab fa-react"></i>
-                  <i class="fab fa-aws"></i>
-                  <i class="fab fa-sketch"></i>
-                  <i class="fab fa-figma"></i>
-                  <i class="fab fa-git"></i>
-                  <i class="fab fa-chrome"></i>
-                  <i class="fas fa-terminal"></i>
-                  <i class="fas fa-universal-access"></i>
-                  <i class="fab fa-npm"></i>
-                  <i class="fab fa-node"></i>
-                  <i class="fab fa-github"></i>
+            <section id="skills" class="programming-skills">
+                <div>
+                    <h2>Skills</h2>
                 </div>
-            </section>
+                <div class="skills-container">
+                    <figure class="skills-images">
+                        <i class="fab fa-html5"></i>
+                        <figcaption>HTML 5</figcaption>
+                    </figure>
+                    <figure class="skills-images">
+                        <i class="fab fa-css3-alt"></i>
+                        <figcaption>CSS 3</figcaption>
+                    </figure>
+                    <figure class="skills-images">
+                        <i class="fab fa-js"></i>
+                        <figcaption>JavaScript</figcaption>
+                    </figure>
+                    <figure class="skills-images">
+                        <i class="fab fa-python"></i>
+                        <figcaption>Python</figcaption>
+                    </figure>
+                    <figure class="skills-images">
+                        <i class="fas fa-code"></i>
+                        <figcaption>C/C++</figcaption>
+                    </figure>
+                    <figure class="skills-images">
+                        <i class="fab fa-git-alt"></i>
+                        <figcaption>Git</figcaption>
+                    </figure>
+                    <figure class="skills-images">
+                        <i class="fab fa-github"></i>
+                        <figcaption>GitHub</figcaption>
+                    </figure>
+                </div>
         </main>
         <footer>
-            <p>Created by Gounay Zort</p>
+            <div>
+                <p>Created by Gounay Zort</p>
+            </div>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
